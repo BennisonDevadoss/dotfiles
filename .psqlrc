@@ -1,0 +1,6 @@
+\timing on
+\x auto
+\set VERBOSITY verbose
+\set HISTFILE ~/.psql_history
+\set HISTSIZE 10000
+\setenv PAGER 'less -R --use-color -Dd+r -Du+b'
