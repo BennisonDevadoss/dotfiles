@@ -16,7 +16,10 @@ call plug#end()
 set number
 set relativenumber
 set hlsearch
-set ignorecase
+set ignorecase   " case insensitive search by default
+set smartcase    " if you type uppercase, match exact case
+set clipboard=unnamed       " sync vim yank with system clipboard (pbcopy)
+
 syntax enable
 
 colorscheme dracula
