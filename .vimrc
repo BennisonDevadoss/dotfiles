@@ -9,6 +9,7 @@ call plug#begin()
 
 " List your plugins here
 Plug 'tpope/vim-sensible'
+Plug 'justinmk/vim-sneak'
 Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
