@@ -11,6 +11,7 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'justinmk/vim-sneak'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
