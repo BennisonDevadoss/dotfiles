@@ -12,6 +12,7 @@ Plug 'tpope/vim-sensible'
 Plug 'justinmk/vim-sneak'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'tpope/vim-commentary'
+Plug 'machakann/vim-highlightedyank'
 
 call plug#end()
 
@@ -25,3 +26,5 @@ set clipboard=unnamed       " sync vim yank with system clipboard (pbcopy)
 syntax enable
 
 colorscheme dracula
+
+let g:highlightedyank_highlight_duration = 200
